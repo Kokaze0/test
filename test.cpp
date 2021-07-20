@@ -2,6 +2,10 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello World!";
+    int* a;
+    int b;
+    a = &b;
+    cout << *a;
+    cout << "Hello World!";
     return 0;
 }
